@@ -1,6 +1,6 @@
 // Node server
 
-const io = require('socket.io')(8000, {
+const io = require('socket.io')(https://loneychat.herokuapp.com/, {
     cors: {
       origin: '*',
     }
