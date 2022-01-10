@@ -1,0 +1,94 @@
+.logo{
+    display:block;
+    margin:auto;
+
+}
+
+body{
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(255, 27, 27));
+    height: 100vh;
+    font-family: 'Bebas Neue', cursive;
+}
+.head{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+}
+h1{
+    margin-bottom: 0.1rem;
+    color: white;
+    margin-top: 0.5rem;
+}
+p{
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+    font-size: 1.5rem;
+    color: white;
+}
+#sendContainer{
+    text-align: center;
+}
+#msgInp{
+    width: 76%;
+    margin-left: 38px;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: #0000ff00;
+    height: 29px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Bebas Neue', cursive;
+    color: rgba(255, 255, 255, 0.452);
+    padding-left: 2px;
+    font-size: 1rem;
+  }
+  
+.btn{
+    border:2px solid #ffffff;
+    border-radius: 7px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+    background-color: #0000ff00;
+    font-family: 'Bebas Neue', cursive;
+}
+.container{
+    max-width: 955px;
+    margin: auto;
+    border: 2px solid #ffffff4d;
+    border-radius: 7px;
+    height: 60vh;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+.message{
+    background-color:#00000036;
+    width: 24%;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 17px 7px;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.432);
+    border-radius: 16px;
+}
+.btn:hover{
+    background-color: #ffffff71;
+    color: rgba(0, 0, 0, 0.486);
+}
+#msgInp:focus {
+    border: 2px solid white;
+    color:white;
+    font-size: 1rem;
+    font-family: 'Bebas Neue', cursive;
+  }
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+
+}
