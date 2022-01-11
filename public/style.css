@@ -98,3 +98,11 @@ p{
     clear: both;
 
 }
+@media only screen and (max-width: 600px) {
+    body {
+        height: 150vh;
+    }
+    #msgInp{
+        margin-left: 3px;
+    }
+  }
