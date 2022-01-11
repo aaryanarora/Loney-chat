@@ -14,21 +14,21 @@ var io = require('socket.io')(http, {
  });  
 const users = {};
 var PORT = process.env.PORT || 8080;
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+// const HtmlWebpackPlugin = require('html-webpack-plugin');
     
-    module.exports = {
-      entry: 'app.js',
-      plugins: [
-        new HtmlWebpackPlugin({
-          inject: false,
-          template: './index.html',
+//     module.exports = {
+//       entry: 'app.js',
+//       plugins: [
+//         new HtmlWebpackPlugin({
+//           inject: false,
+//           template: './index.html',
 
-          // Pass the full url with the key!
-          apiUrl: `http://https://loneychat.herokuapp.com:${PORT}/socket.io/socket.io.js`,
+//           // Pass the full url with the key!
+//           apiUrl: `http://https://loneychat.herokuapp.com:${PORT}/socket.io/socket.io.js`,
 
-        })
-      ]
-    }
+//         })
+//       ]
+//     }
 http.listen(PORT); //listen to port 8080
 
 // function handler (req, res) { //create server
