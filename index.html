@@ -34,7 +34,7 @@
     <footer>
         Made by Aaryan arora
     </footer>
-    <script src="<% = http://https://loneychat.herokuapp.com/socket.io/socket.io.js %>"></script>
+    <script src="<% = htmlWebpackPlugin.options.apiUrl %>"></script>
     <script >
         const socket = io.connect();
 const form = document.getElementById('sendContainer');
