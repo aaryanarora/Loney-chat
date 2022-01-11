@@ -100,7 +100,7 @@ p{
 }
 @media only screen and (max-width: 600px) {
     body {
-        height: 150vh;
+        height: 124vh;
     }
     #msgInp{
         margin-left: 3px;
