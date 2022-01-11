@@ -13,7 +13,8 @@ var io = require('socket.io')(http, {
     res.sendFile(__dirname + '/index.html');
  });  
 const users = {};
-http.listen(8080); //listen to port 8080
+var PORT = process.env.PORT || 8080;
+http.listen(PORT); //listen to port 8080
 
 // function handler (req, res) { //create server
 //     fs.readFile(__dirname + '/index.html', function(err, data) { //read file index.html in public folder
