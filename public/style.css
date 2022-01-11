@@ -6,7 +6,8 @@
 
 body{
     background-image: linear-gradient(rgb(0, 0, 0),rgb(255, 27, 27));
-    height: 100vh;
+    /* height: 100vh; */
+    min-height: 100%;
     font-family: 'Bebas Neue', cursive;
 }
 .head{
@@ -99,9 +100,9 @@ p{
 
 }
 @media only screen and (max-width: 600px) {
-    body {
+    /* body {
         height: 124vh;
-    }
+    } */
     #msgInp{
         margin-left: 3px;
     }
